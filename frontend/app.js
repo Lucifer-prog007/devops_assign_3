@@ -20,7 +20,7 @@ params.append("email", req.body.email);
 params.append("age", req.body.age);
 
 const response = await axios.post(
-    "http://backend:5000/submit",
+    "http://backend-service:5000/submit",
     params,
     {
         headers: {
